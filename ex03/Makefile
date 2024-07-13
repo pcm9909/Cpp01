@@ -1,7 +1,7 @@
-NAME = brain
+NAME = 
 CC = c++
 FLAG = -Wextra -Werror -Wall -std=c++98 -g
-SRCS = main.cpp
+SRCS = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
