@@ -2,9 +2,9 @@
 
 int main()
 {
-    Zombie* z1 = newZombie("Zombie1");
-    z1->announce();
-    delete z1;
+    Zombie* zombie1 = newZombie("Zombie1");
+    zombie1->announce();
+    delete zombie1;
 
     randomChump("Zombie2");
     return 0;

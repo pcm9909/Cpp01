@@ -2,7 +2,7 @@
 
 HumanA::HumanA(std::string name, Weapon &weapon) : _name(name), _weapon(weapon)
 {
-    std::cout << "HumanA::" << name << " created(" << weapon.getType() << ")" << std::endl; 
+    std::cout << "HumanA::" << name << " created(" << weapon.getType() << ")" << std::endl;
 }
 
 HumanA::~HumanA()
